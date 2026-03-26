@@ -44,6 +44,7 @@ TraCuuDiem là hệ thống tra cứu điểm thi được xây dựng theo mô 
 
 ## 📁 Cấu trúc thư mục
 
+```
 TraCuuDiem/
 ├── backend/
 │   ├── api/
@@ -66,8 +67,7 @@ TraCuuDiem/
 │
 ├── docker-compose.yml
 └── README.md
-
----
+```
 
 ## ⚙️ Cách hoạt động
 
