@@ -92,7 +92,7 @@ TraCuuDiem/
 ### 1. Clone project
 
 ```bash
-git clone <YOUR_REPO_URL>
+git clone https://github.com/ThanhDai2005/TraCuuDiem.git
 cd TraCuuDiem
 ```
 
