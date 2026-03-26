@@ -1,0 +1,22 @@
+services:
+  mysql_north:
+    image: mysql:latest
+    container_name: mysql_north
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+      MYSQL_DATABASE: db_north
+    volumes:
+      - ./sql/db_north.sql:/docker-entrypoint-initdb.d/db_north.sql
+
+  mysql_south:
+    image: mysql:latest
+    container_name: mysql_south
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+      MYSQL_DATABASE: db_south
+    volumes:
+      - ./sql/db_south.sql:/docker-entrypoint-initdb.d/db_south.sql
