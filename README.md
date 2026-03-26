@@ -46,23 +46,23 @@ TraCuuDiem là hệ thống tra cứu điểm thi được xây dựng theo mô 
 
 TraCuuDiem/
 ├── backend/
-│ ├── api/
-│ │ ├── controllers/
-│ │ └── routes/
-│ ├── config/
-│ ├── .env.example
-│ ├── package.json
-│ └── index.js
+│   ├── api/
+│   │   ├── controllers/
+│   │   └── routes/
+│   ├── config/
+│   ├── .env.example
+│   ├── package.json
+│   └── index.js
 │
 ├── frontend/
-│ ├── src/
-│ ├── .env.example
-│ ├── package.json
-│ └── vite.config.ts
+│   ├── src/
+│   ├── .env.example
+│   ├── package.json
+│   └── vite.config.ts
 │
 ├── sql/
-│ ├── db_north.sql
-│ └── db_south.sql
+│   ├── db_north.sql
+│   └── db_south.sql
 │
 ├── docker-compose.yml
 └── README.md
